@@ -1,0 +1,28 @@
+/*BODY*/
+body {
+  margin: 0;
+}
+/*HEADER*/
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 15px;
+}
+ul {
+  display: flex;
+  justify-content: center;
+  gap: 14px;
+  list-style-type: none;
+}
+/*MAIN*/
+section {
+  height: 100vh;
+  padding: 30px 20px;
+}
+
+/*FOOTER*/
+footer {
+  display: flex;
+  justify-content: center;
+}
