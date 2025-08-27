@@ -1,12 +1,13 @@
 /*BODY*/
 body {
-  margin: 0;
-  font-family: "Noto Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 100;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+ margin: 0;
+ font-family: "Noto Sans", sans-serif;
+ font-optical-sizing: auto;
+ font-weight: 100;
+ font-style: normal;
+ font-variation-settings: 100;
+ background-color: rgb(39, 37, 42);
+ color: white;
 }
 
 /*HEADER*/
@@ -15,6 +16,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 8px 15px;
+  background-color:#1b1a1c;
 }
 ul {
   display: flex;
@@ -24,18 +26,25 @@ ul {
 }
 /*MAIN*/
 .hero{
-display: flex;
-justify-content: space-around;
-
-font-size: 90px;
-height: 100vh;
-
-
+ height: 100vh;
 }
 
-section {
-  height: 50vh;
-  padding: 30px 20px;
+.tiny{ 
+ font-size: 20px;
+ display: flex;
+ justify-content:center;
+ padding-top:45px;
+}
+
+.xmasdecor {
+  display:flex;
+  color:#e387ed;
+  background-color: darkslateblue;
+  justify-content: space-around;
+  font-size: 20px;
+  font-family: "Yarndings 20", system-ui;
+  font-weight: 400;
+  font-style: normal
 }
 
 /*TITLE*/
