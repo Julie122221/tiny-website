@@ -25,15 +25,16 @@ ul {
   list-style-type: none;
 }
 /*MAIN*/
-.hero{
+.hero {
  height: 100vh;
+ padding-bottom: 10vh;
 }
 
-.tiny{ 
+.tiny { 
  font-size: 20px;
  display: flex;
  justify-content:center;
- padding-top:45px;
+ padding-top:10vh;
 }
 
 .xmasdecor {
@@ -43,28 +44,44 @@ ul {
   justify-content: space-around;
   font-size: 1vw;
   font-family: "Yarndings 20", system-ui;
-  font-weight: 400;
+  font-weight: 300;
   font-style: normal
 }
 
 /*TITLE*/
 .title {
-  font-size: 40px;
+  font-size: 5vh;
   display: flex;
   justify-content: space-evenly;
+  margin-top: 14vh;
 }
 
 /*BODYTEXT*/
 .bodytext {
-  font-size: 15px;
+  font-size: 1.7vh;
   display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 30vh;
+}
+
+.myprojects {
+  display: flex;
+  justify-content: center;
+  font-size: 3vh;
+}
+
+.oopsie {
+ display: flex;
+ justify-content: center;
+ font-size: 2vh;
+ padding-top: 7vh;
+ padding-bottom: 20vh;
 }
 
 /*FOOTER*/
-footer {
+footer{
   display: flex;
   justify-content: center;
+  color:#e387ed;
+  background-color: #1b1a1c;
 }
